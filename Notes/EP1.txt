@@ -1,5 +1,8 @@
-Lors de la création du joueur, séparer la partie graphics et la partie collider car c'est plus pratique poour le développement
+Lors de la création du joueur, séparer la partie graphics et la partie collider car c'est plus pratique pour le développement.
 
-Sur le rigitbody du joueur freeze les rotations x, y, z car elles seront gérer par la cam
+Sur le rigitbody du joueur : freeze les rotations x, y et z car elles seront gérer par la caméra.
 
-Diff entre playerController et motor : input = btn qu'on appuie et actions, motor = physique du perso( effectuer reelement les actions)
+la différence entre PlayerController et PlayerMotor : 
+
+    PlayerController = btn qu'on appuie et actions
+    PlayerMotor = physique du perso( effectuer reelement les actions)
